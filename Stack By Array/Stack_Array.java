@@ -33,14 +33,6 @@ public class Stack <t> {
             top--;
         }
     }
-     public void pop(t element){
-        if(isempty()){
-            System.out.println("stack is empty");
-        }else{
-            array[top]=element;
-            top--;
-        }
-    }
      public void peek(){
         if(isempty()){
             System.out.println("stack is empty");
